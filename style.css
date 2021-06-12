@@ -4,16 +4,76 @@ body{
     
 }
 
-::-moz-selection { /* Code for Firefox */
-    color: rgb(47, 0, 255);
-    background: rgba(0, 0, 0, 0.144);
-  }
+@media only screen and (max-width: 977px) {
+
+.active{
+  font-size: 40px;
+}
+.myname{
+  font-size: 15px;
+}
+.li{
+  font-size: 11px;
+}
+.top{flex-direction: column;}
+
+.range{font-size: 25%;}
+
+
+
+.rowe {
+  gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.cole {
+
+
+
+justify-content: start;
+
+}
+
+
+
+
+.fab{
+  font-size: 10px;
+}
+.mdwl{
+  font-size: 15px !important;
+}
+.mdwl b{
+  font-size: 25px !important;
+}
+.attr{
+  font-size: 12px;
+}
+.attr i{
+font-size: 12px  !important;
+}
+.level{
   
-  ::selection {
-    color: rgb(241, 241, 241);
-    background: rgba(0, 0, 0, 0.863);
- 
-  }
+   height: 6px !important;
+}
+
+.range{
+  height: 6px !important;
+  font-size: 5px !important;
+  line-height: 5px !important;
+}
+.dropbtn{
+  font-size: 10px;
+}
+
+.skill{
+  font-size: 35px;
+}
+.skilltxt{
+  font-size: 25px;
+}
+} 
 
 .li{
   font-weight: 500;
@@ -91,12 +151,7 @@ body{
     }
   }
 
-.ppara{
-   margin-top: 1%;
-    font-size: 15px;
-    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.432),rgba(255, 255, 255, 0.884));
-    border: 2px solid black;
-}
+
 
 .skill{
   
@@ -371,74 +426,4 @@ justify-content: center;
 
 
 
-@media only screen and (max-width: 977px) {
-
-.active{
-  font-size: 40px;
-}
-.myname{
-  font-size: 15px;
-}
-.li{
-  font-size: 11px;
-}
-.top{flex-direction: column;}
-
-.range{font-size: 25%;}
-
-
-
-.rowe {
-  gap: 25px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-.cole {
-
-
-
-justify-content: start;
-
-}
-
-
-
-
-.fab{
-  font-size: 10px;
-}
-.mdwl{
-  font-size: 15px !important;
-}
-.mdwl b{
-  font-size: 25px !important;
-}
-.attr{
-  font-size: 12px;
-}
-.attr i{
-font-size: 12px  !important;
-}
-.level{
-  
-   height: 6px !important;
-}
-
-.range{
-  height: 6px !important;
-  font-size: 5px !important;
-  line-height: 5px !important;
-}
-.dropbtn{
-  font-size: 10px;
-}
-
-.skill{
-  font-size: 35px;
-}
-.skilltxt{
-  font-size: 25px;
-}
-} 
 
