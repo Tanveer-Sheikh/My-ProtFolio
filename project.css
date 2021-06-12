@@ -1,0 +1,111 @@
+body{
+    scroll-behavior: smooth;
+    
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: rgb(47, 0, 255);
+    background: rgba(0, 0, 0, 0.144);
+  }
+  
+  ::selection {
+    color: rgb(241, 241, 241);
+    background: rgba(0, 0, 0, 0.863);
+ 
+  }
+
+
+
+ .Pname{
+ 
+   font-size: 3vw;
+    font-family: 'Risque', cursive;
+    
+ 
+    animation: upper 2s linear infinite; 
+    text-shadow: 0 0 80px;
+
+    color: rgb(255, 0, 0);
+   
+ }
+ @keyframes upper {
+    0%,19.999%,22%,62.999%,64%, 64.999%,70%,100% {
+      opacity:.99; text-shadow: 0 0 80px #ffffff,0 0 30px #008000,0 0 6px #0000ff;
+    }
+    20%,21.999%,63%,63.999%,65%,69.999% {
+      opacity:0.4; text-shadow: none; 
+    }
+  }
+
+.card{
+  background-color: #0a5096;
+  color: #ffffff;
+  width: 18rem;
+}
+.card-subtitle{
+  font-family: 'ZCOOL KuaiLe';
+  color: #F64C72;
+} 
+  .card-title{
+    background-color: #379683;
+    text-align: center;
+    border-radius: 22px;
+  }
+
+ @media only screen and (max-width: 977px) {
+
+.Pname{
+    font-size: 35px;
+}
+
+.card-title{
+  font-size: 9px;
+}
+.card-subtitle{
+  font-size: 5px;
+}
+.card-text{
+  font-size: 5px;
+}
+.card-link{
+  font-size: 3px;
+}
+.card{
+  width: 9rem;
+
+}
+ }
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #379683;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: none;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 5px;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
