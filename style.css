@@ -1,5 +1,10 @@
 
 
+body{
+    scroll-behavior: smooth;
+    
+}
+
 
 .li{
   font-weight: 500;
